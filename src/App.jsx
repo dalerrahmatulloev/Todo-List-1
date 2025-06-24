@@ -42,7 +42,6 @@ function App() {
     setEditingId(id);
     setEditInput(text);
   };
-  const text = []
 
   const saveEdit = (id) => {
     setTodos(
