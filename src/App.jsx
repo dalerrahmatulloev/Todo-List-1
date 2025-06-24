@@ -26,8 +26,6 @@ function App() {
     setInput("");
   };
 
-  console.log(todos);
-
   const toggleComplete = (id) => {
     setTodos(
       todos.map((todo) =>
@@ -44,6 +42,7 @@ function App() {
     setEditingId(id);
     setEditInput(text);
   };
+  const text = []
 
   const saveEdit = (id) => {
     setTodos(
